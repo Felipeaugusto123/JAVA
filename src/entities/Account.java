@@ -20,10 +20,6 @@ public class Account {
         return numberAccount;
     }
 
-    public void setNumberAccount(int numberAccount) {
-        this.numberAccount = numberAccount;
-    }
-
     public String toString() {
         return "Account " + numberAccount + ", " + "Holder: " + name + ", " + "Balance " + value;
     }
